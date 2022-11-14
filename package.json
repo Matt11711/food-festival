@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,12 @@
   },
   "homepage": "https://github.com/Matt11711/food-festival#readme",
   "dependencies": {
-    "@popperjs/core": "^1.16.0",
-    "bootstrap": "^4.3.1"
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.6.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
   }
 }
