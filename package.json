@@ -1,0 +1,23 @@
+{
+  "name": "food-festival",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matt11711/food-festival.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matt11711/food-festival/issues"
+  },
+  "homepage": "https://github.com/Matt11711/food-festival#readme",
+  "dependencies": {
+    "@popperjs/core": "^1.16.0",
+    "bootstrap": "^4.3.1"
+  }
+}
